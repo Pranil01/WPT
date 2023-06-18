@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>ex3.html</title>
+        <script>
+             function f1(){
+            let e =document.getElementById("d1")
+            e.innerText="It is good to pratice code."
+              } 
+              function f2(){
+            let ele =document.getElementById("d1")
+            ele.innerText=""
+              }
+              function f3(){
+            let e =document.getElementById("d1")
+            e.innerHTML=" <b> Its good to be bold. </b> "
+
+              }  </script>
+    </head>
+
+    <body>
+
+         <div>
+            <div id="d1" > </div>      
+            <button onClick="f1()">show-div-content </button>
+            <button onClick="f2()" > clear </button>
+            <button onClick="f3()" > bold </button>
+         </div>
+    </body>
+</html>
